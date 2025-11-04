@@ -1,3 +1,5 @@
+
+
 header{
     height: 60px;
     width: auto;
@@ -11,7 +13,8 @@ header{
     height: 40px;
     width: 40px;
     position: relative;
-    left: 50px;
+    left: 28px;
+    
     
 }
 
@@ -95,4 +98,173 @@ header nav a{
     margin-left: 600px;
     margin-top: -245px;
 }
+
+/*duplicados*/
+
+#duplicados{
+    border-bottom: 1px solid black;
+    background-color: #d9d9d9;
+ 
+}
+
+
+#duplicado-1{
+    width: 160px;
+    margin-left: 50px;    
+    
+}
+
+.titulos{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+  
+}
+
+.busqueda{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 210px;
+}
+
+.estilo-select{
+    background-color: white;
+    height: 20px;
+    width: 219px;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: -14px;
+}
+
+.estilo-select label{
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+  
+}
+
+.estilo-select select{
+
+    font-family: "Lato", sans-serif;
+
+  
+}
+
+.estilo-select option{
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+  
+}
+
+/*estilo boton 2*/
+
+.estilo-select2{
+    background-color: white;
+    height: 20px;
+    width: 135.4px;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: -14px;
+}
+
+.estilo-select2 label{
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+  
+}
+
+.estilo-select2 select{
+
+    font-family: "Lato", sans-serif;
+
+  
+}
+
+.estilo-select2 option{
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+  
+}
+
+/*presentacion animales */
+
+
+#cuadrantes{
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(2, 0.4fr);  
+    gap: 10px;
+    background-color: #d9d9d9;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+
+}
+
+.apartados{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    height: 150px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+}
+
+.cuadrados{
+    height: 100px;
+    width: 100px;
+}
+.cuadrados img{
+    height: 100px;
+    width:  100px;
+    border: 1px solid black;
+    border-radius: 2px;
+    
+}
+
+.contenido-cuadrados{
+    position: relative;
+    text-align: justify;
+    top: -115px;
+    right: -120px;
+    font-family: "poppins", sans-serif;
+}
+
+
+/*mapa*/
+
+#mapa{
+    position: relative;
+    border-top: 1px solid black;
+    width: 50%;
+    left: 50%;
+    top: -512px;
+   
+    
+}
+
+#titulos-mapa{
+    position: relative;
+    left: 50px;
+    width: 30px;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+}
+
+#mapa iframe{
+    margin-left: 50px;
+  
+}
+
+
 
