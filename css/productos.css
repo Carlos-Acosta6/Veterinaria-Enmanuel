@@ -48,13 +48,11 @@ header nav a{
 #ofertas{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid black;
    
    
 }
 
-#seccion1{
-    border-right: 1px dashed black;;
-}
 
 #titulo-principal{
     position: relative;
@@ -84,17 +82,62 @@ header nav a{
 
     font-size: 16px;
     font-weight: bold;
+   
+}
 
+#tabla{
+    position: relative;
+    top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid black;
+    border-radius: 8px;
+    
+
+}
+
+.info-tablas{
+    padding: 30px;
+    border-bottom: 1px solid;
+}
+
+.info-tablas h1{
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
     
 }
 
+
+
+.info-tablas li{
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+}
+
+.info-tablas:nth-child(1) {
+    border-right: 1px solid black;
+
+}
+
+.info-tablas:nth-child(3) {
+
+
+    grid-column: span 2;
+    border-bottom: none;
+    text-align: center;
+       
+}
 
 
 /*footer*/
 
 footer{
     position: relative;
-    top: -18px;
+   
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px  solid black;
