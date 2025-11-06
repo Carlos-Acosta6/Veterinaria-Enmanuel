@@ -132,6 +132,118 @@ header nav a{
        
 }
 
+/*Productos*/
+
+#productos{
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    padding: 0px 50px 0px 50px;
+}
+
+#titulo-productos{
+    position: relative;
+    top: 10px;
+    width: 19%;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+#btn{
+
+    position: relative;
+    top: -10px; 
+    display: flex;
+    text-align: center;
+    gap: 67.4%;
+    border: 1px dashed black;
+  
+}
+
+.estilo-btn{
+    background-color: white;
+    height: 20px;
+    border: 1px solid black;
+    
+}
+
+.estilo-btn label{
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+}
+
+.estilo-btn select{
+    font-family: "Lato", sans-serif;
+
+}
+
+.estilo-btn option{
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+  
+}
+
+
+
+/*cartas*/
+
+#cartas-productos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.carta{
+    position: relative;
+    height: 450px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+   
+}
+
+.cuadrados{
+    border-bottom: 1px solid black;
+}
+
+.cuadrados img{
+    position: relative;
+    height: 150px;
+    width:  150;
+
+}
+
+.contenido-cuadrados{
+    position: relative;
+    left: 15px;
+    text-align: justify;
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    
+}
+
+.contenido-cuadrados h1{
+
+    font-size: 26px;
+     
+}
+
+.contenido-cuadrados h2{
+
+    font-size: 20px;
+     
+}
+
+
 
 /*footer*/
 
@@ -152,7 +264,7 @@ footer{
 .info-footer{
     font-size: 13px;
     font-family: 'poppins', sans-serif;
-    transition: all 0.5s ease;
+    
 
     &:hover{
         color: blue;
